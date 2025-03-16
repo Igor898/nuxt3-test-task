@@ -2,6 +2,9 @@ import { defineNuxtConfig } from 'nuxt/config';
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js';
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/nuxt3-test-task/' : '/',
+  },
   vite: {
     plugins: [
       cssInjectedByJsPlugin(),
@@ -18,7 +21,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify'],
   },
   css: [
-    'vuetify/styles', // Основные стили Vuetify 3
-    '@mdi/font/css/materialdesignicons.min.css', // Иконки Material Design
+    'vuetify/styles',
+    '@mdi/font/css/materialdesignicons.min.css',
   ],
 });
