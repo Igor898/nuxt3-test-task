@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.NODE_ENV === 'production' ? '/nuxt3-test-task/' : '/',
   },
+
   vite: {
     plugins: [
       cssInjectedByJsPlugin(),
@@ -17,11 +18,15 @@ export default defineNuxtConfig({
       },
     },
   },
+
   build: {
     transpile: ['vuetify'],
   },
+
   css: [
     'vuetify/styles',
     '@mdi/font/css/materialdesignicons.min.css',
   ],
+
+  compatibilityDate: '2025-03-17',
 });
