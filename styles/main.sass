@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap')
+
+$background-color: #fff7eb
+$header-height: 64px
+$card-padding: 16px
+$button-background-color: #337566
+$button-text-color: #ffffff
+
+header
+  background-color: $background-color
+  height: $header-height
+footer
+  background: #DBDBDB
+.v-container
+  margin: 0 auto
+  padding: 0
+  line-height: $header-height
+
+.v-card
+  transition: transform 0.2s
+  &:hover
+    transform: translateY(-5px)
+
+.v-img
+  border-radius: 4px 4px 0 0
+
+.v-card-title
+  padding: $card-padding $card-padding 0
+
+.v-card-subtitle
+  padding: 0 $card-padding
+
+.v-card-text
+  padding: $card-padding
+
+.stick
+  margin-top: 16px
+  height: 32px
+.text-blur
+  font-family: Inter
+  font-weight: 400
+  font-size: 13px
+  line-height: 18px
+  letter-spacing: 0%
+  vertical-align: middle
+  font-variant-numeric-figure: lining-nums
+  font-variant-numeric-spacing: proportional-nums
+  color: #6B6B6B
+.flex-container
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 50px
+
+.dropdown-button
+  margin-top: 25px
+  padding-top: 17px
+  padding-bottom: 34px
+  border-radius: 12px
+  border-width: 1px
+  background-color: #e8e8e8
+.burger-btn
+  position: relative
+  height: 48px
+  width: 88px
+  padding: 0
+.v-btn__content
+  display: flex
+  justify-content: space-between
+.burger-btn_img
+  position: absolute
+  right: 5px
+.menu-icon
+  position: absolute
+  left: 15px
+  font-size: 17px
+.menu-link
+  text-decoration: none
+  color: #333333
+  font-size: 16px
+  &:hover
+    color: #007bff
+.mobile-burger
+  display: none
+.flex_buttons
+  margin-top: 20px
+  border-radius: 12px
+  padding-right: 12px
+  padding-left: 12px
+  background-color: #e8e8e8
+  line-height: 40px
+  margin-right: 8px
+  &:last-child
+    margin-right: 0
+  &:hover
+    border: 1px solid black
+.flex_buttons-link
+  text-decoration: none
+  color: black
+.button-show
+  background-color: $button-background-color
+  color: $button-text-color
+  padding: 10px
+  border-radius: 12px
+  font-family: 'Inter', sans-serif
+  font-weight: 500
+  font-size: 15px
+  line-height: 24px
+  text-align: center
+  vertical-align: middle
+.text-price
+  font-family: Inter
+  font-weight: 500
+  font-size: 17px
+  line-height: 20px
+.text-name
+  font-family: Inter
+  font-weight: 500
+  font-size: 15px
+  line-height: 24px
+.user-name
+  font-family: Inter
+  font-weight: 600
+  font-size: 24px
+  line-height: 28px
+.agent-cards
+  padding: 20px
+  border-radius: 20px
+  background-color: #F5F5F5
+.user-description
+  font-family: Inter
+  font-weight: 400
+  font-size: 15px
+  line-height: 24px
+  letter-spacing: 0%
+  overflow: hidden
+  text-overflow: ellipsis
+  display: -webkit-box
+  -webkit-line-clamp: 3
+  -webkit-box-orient: vertical
+.text
+  font-family: 'Inter', sans-serif
+  font-weight: 400
+  font-size: 17px
+  vertical-align: middle
+.user-avatar-under
+  margin-right: 20px
+.user-avatar-small
+  display: none
+.text-h4
+  font-family: 'Inter', sans-serif
+  font-weight: 600
+  font-size: 20px
+  line-height: 28px
+.move-icon
+  margin-left: 140px
+.reviews
+  font-family: Inter
+  font-size: 14px
+  line-height: 20px
+.button
+  text-decoration: none
+  color: $button-background-color
+  font-family: 'Inter', sans-serif
+  font-weight: 500
+  font-size: 17px
+  text-align: center
+  vertical-align: middle
+.v-card--variant-elevated
+  box-shadow: none
+.move-bottom
+  margin-bottom: 50px
+@media (max-width: 960px)
+  .agent-cards
+    padding: 10px
+  .user-avatar
+    display: none
+  .user-avatar-under
+    margin-right: 0
+  .user-avatar-small
+    display: inline-block
+  .mobile-burger
+    display: block
+  .user-name
+    font-size: 20px
+    line-height: 24px
+  .user-profile
+    display: none
+  .v-container
+    max-width: 800px
+  .text-h4
+    font-size: 1.5rem
+  .displ-none
+    display: none
+  .column
+    flex-direction: column
+  .card-prodect
+    max-width: 350px
+  .flex_buttons
+    line-height: 24px
+    font-size: 15px
+    padding: 6px
+  .move-icon
+    margin-left: 0
+  .move-bottom
+    margin-bottom: 0
+@media (max-width: 375px)
+  .v-container
+    max-width: 300px

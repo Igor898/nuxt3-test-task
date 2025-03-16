@@ -1,0 +1,149 @@
+{
+    "company": {
+        "name": "TechStore",
+        "logo": "https://example.com/logo.png",
+        "description": "Лучший магазин электроники и аксессуаров."
+    },
+    "reviews": {
+        "total": 120,
+        "averageRating": 4.7
+    },
+    "products": [
+        {
+            "id": 1,
+            "name": "Сlavia Nord Grand сценическое цифровое пианино",
+            "price": 450500,
+            "image": "/card1.png",
+            "rating": 4.8,
+            "stock": 50
+        },
+        {
+            "id": 2,
+            "name": "Hyundai Sonata 2.0 AT, 2023, 30 км",
+            "price": 3285000,
+            "image": "/card2.png",
+            "rating": 4.9,
+            "stock": 30
+        },
+        {
+            "id": 3,
+            "name": "2-к. квартира, 46 м², 1/5 эт.",
+            "price": 4800000,
+            "image": "/card3.png",
+            "rating": 4.7,
+            "stock": 100
+        },
+        {
+            "id": 4,
+            "name": "Старые барабаны",
+            "price": 7500,
+            "image": "/card4.png",
+            "rating": 4.6,
+            "stock": 75
+        },
+        {
+            "id": 5,
+            "name": "DMX сплиттер RJ45 to 4x XLR Stairville",
+            "price": 7500,
+            "image": "/card5.png",
+            "rating": 4.9,
+            "stock": 20
+        },
+        {
+            "id": 6,
+            "name": "Мотоцикл honda",
+            "price": 217500,
+            "image": "/card6.png",
+            "rating": 4.9,
+            "stock": 40
+        },
+        {
+            "id": 7,
+            "name": "Иж юпитер 5",
+            "price": 17900,
+            "image": "/card7.png",
+            "rating": 4.7,
+            "stock": 25
+        },
+        {
+            "id": 8,
+            "name": "Пылесос кёрхер с водяным мешком для сбора пыли",
+            "price": 7500,
+            "image": "/card8.png",
+            "rating": 4.8,
+            "stock": 60
+        },
+        {
+            "id": 9,
+            "name": "Планшет Samsung Galaxy Tab S8",
+            "price": 79900,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU6McALceDWFlvYOvCr1lJhwBe8hwQYGU9fA&s",
+            "rating": 4.7,
+            "stock": 35
+        },
+        {
+            "id": 10,
+            "name": "Чехол для iPhone 14 Pro",
+            "price": 2900,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDlyccC5CUlmu8rKfE0K6bVoe6oHbv1QgtLg&s",
+            "rating": 4.6,
+            "stock": 150
+        }
+    ],
+    "agents": [
+        {
+            "id": 1,
+            "name": "Дмитрий Хитрый",
+            "avatar": "/agent1.png",
+            "documentsVerified": true,
+            "rating": 4.3,
+            "reviewsCount": 19,
+            "description": "Помог справиться с потерей и организовать похороны для 126 семей ну и еще чуть описания, чтобы дойти до конца строки и текст будет отсекаться"
+        },
+        {
+            "id": 2,
+            "name": "Апполинарий Землеперекопский",
+            "avatar": "/agent2.png",
+            "documentsVerified": false,
+            "rating": null,
+            "reviewsCount": 0,
+            "description": "Помог справиться с потерей и организовать похороны для 126 семей."
+        },
+        {
+            "id": 3,
+            "name": "Фёдор Сумкин",
+            "avatar": "/agent3.png",
+            "documentsVerified": true,
+            "rating": 4.3,
+            "reviewsCount": 19,
+            "description": "Помог справиться с потерей и организовать похороны для 126 семей ну и еще чуть описания, чтобы дойти до конца строки и текст будет отсекаться"
+        },
+        {
+            "id": 4,
+            "name": "Василий Копушин",
+            "avatar": "/agent4.png",
+            "documentsVerified": false,
+            "rating": null,
+            "reviewsCount": 0,
+            "description": "Помог справиться с потерей и организовать похороны для 126 семей ну и еще чуть описания, чтобы дойти до конца строки и текст будет отсекаться"
+        },
+        {
+            "id": 5,
+            "name": "Феофан Кусакин",
+            "avatar": "/agent5.png",
+            "documentsVerified": true,
+            "rating": 4.3,
+            "reviewsCount": 19,
+            "description": "Помог справиться с потерей и организовать похороны для 126 семей ну и еще чуть описания, чтобы дойти до конца строки и текст будет отсекаться"
+        },
+        {
+            "id": 6,
+            "name": "Василиса Землеперекопская",
+            "avatar": "/agent6.png",
+            "documentsVerified": false,
+            "rating": null,
+            "reviewsCount": 0,
+            "description": "Помог справиться с потерей и организовать похороны для 126 семей ну и еще чуть описания, чтобы дойти до конца строки и текст будет отсекаться"
+        }
+    ]
+}
