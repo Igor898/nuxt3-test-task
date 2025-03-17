@@ -5,7 +5,12 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.NODE_ENV === 'production' ? '/nuxt3-test-task/' : '/',
   },
-
+  generate: {
+    fallback: '404.html', // GitHub Pages использует 404.html как index для SPA
+  },
+  routeRules: {
+    '/**': { prerender: true }, // Пререндеринг всех маршрутов
+  },
   vite: {
     plugins: [
       cssInjectedByJsPlugin(),
